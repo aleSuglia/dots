@@ -37,3 +37,6 @@
             (lambda ()
               (set (make-local-variable 'company-backends) '(company-go))))
 
+(load "auctex.el" nil t t)
+(load "preview-latex.el" nil t t)
+
